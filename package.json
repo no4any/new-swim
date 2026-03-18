@@ -1,0 +1,27 @@
+{
+  "name": "new-swim",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "configs/*",
+    "libs/*"
+  ],
+  "packageManager": "npm@11.1.0",
+  "homepage": "https://github.com/no4any/new-swim#readme",
+  "bugs": {
+    "url": "https://github.com/no4any/new-swim/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no4any/new-swim.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build",
+    "start": "turbo run start"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.18"
+  }
+}

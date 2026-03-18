@@ -1,0 +1,21 @@
+{
+  "name": "@new-swim/model",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@new-swim/ts-config": "^1.0.0"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@new-swim/ts-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./tsconfig.json",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

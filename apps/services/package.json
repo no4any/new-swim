@@ -1,0 +1,19 @@
+{
+  "name": "@new-swim/services",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "devDependencies": {
+    "@new-swim/ts-config": "^1.0.0",
+    "@types/express": "^5.0.6"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "@new-swim/model": "^1.0.0",
+    "@new-swim/client": "^1.0.0"
+  }
+}

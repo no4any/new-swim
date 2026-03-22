@@ -1,1 +1,1 @@
-export * from "./Message.zod.js"
+export * from "./message"

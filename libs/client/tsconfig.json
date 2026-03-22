@@ -1,7 +1,0 @@
-{
-    "extends": "@new-swim/ts-config",
-    "compilerOptions": {
-        "outDir": "./dist",
-        "rootDir": "./src"
-    }
-}

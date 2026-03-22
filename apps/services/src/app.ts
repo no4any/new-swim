@@ -1,7 +1,6 @@
 
 import express from "express";
 import { Message } from "@new-swim/model";
-import { getHello } from "@new-swim/client";
 
 const PORT = 3000;
 
@@ -14,8 +13,7 @@ app.get("/", async (_req, res) => {
 });
 
 app.get("/fetch", async (_req, res) => {
-    const msg = await getHello();
-    res.send(msg);
+    res.send("hi!!!!???!!!");
 });
 
 app.listen(PORT, () => {

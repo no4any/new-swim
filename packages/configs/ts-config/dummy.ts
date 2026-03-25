@@ -1,0 +1,1 @@
+console.log("I'm just a dummy. Typescript is running mad if I'm not here :D")

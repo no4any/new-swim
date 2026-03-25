@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "express": "^5.2.1",
-    "@new-swim/model": "*"
+    "@new-swim/common": "*"
   }
 }

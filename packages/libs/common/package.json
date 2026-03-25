@@ -1,5 +1,5 @@
 {
-  "name": "@new-swim/model",
+  "name": "@new-swim/common",
   "version": "1.0.0",
   "license": "MIT",
   "exports": {
@@ -12,7 +12,7 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@new-swim/ts-config": "^1.0.0"
+    "@new-swim/ts-config": "*"
   },
   "dependencies": {
     "zod": "^4.3.6"

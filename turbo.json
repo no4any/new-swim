@@ -15,10 +15,7 @@
         },
         "dev": {
             "dependsOn": [
-                "build"
-            ],
-            "inputs": [
-                "**"
+                "^build"
             ],
             "persistent": true,
             "interruptible": true,

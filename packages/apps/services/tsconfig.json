@@ -2,8 +2,7 @@
     "extends": "@new-swim/ts-config",
     "compilerOptions": {
         "rootDir": "./src",
-        "outDir": "./dist",
-        "baseUrl": "./"
+        "outDir": "./dist"
     },
     "include": ["src/**/*"],  // Include only files in src
     "exclude": ["node_modules"]

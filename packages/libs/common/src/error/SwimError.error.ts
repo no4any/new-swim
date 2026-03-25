@@ -1,0 +1,1 @@
+export class SwimError extends Error {}

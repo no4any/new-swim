@@ -13,7 +13,7 @@
                 "dist/**"
             ]
         },
-        "dev": {
+        "test": {
             "dependsOn": [
                 "^build"
             ],

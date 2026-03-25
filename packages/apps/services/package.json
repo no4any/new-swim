@@ -4,8 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js",
-    "dev": "node dist/app.js"
+    "start": "node dist/app.js"
   },
   "devDependencies": {
     "@new-swim/ts-config": "^1.0.0",

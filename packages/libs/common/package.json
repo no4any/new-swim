@@ -9,10 +9,12 @@
     }
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -p ./tsconfig.build.json",
+    "test": "jest --coverage"
   },
   "devDependencies": {
-    "@new-swim/ts-config": "*"
+    "@new-swim/ts-config": "*",
+    "@new-swim/jest-config": "*"
   },
   "dependencies": {
     "zod": "^4.3.6"

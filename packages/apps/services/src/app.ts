@@ -1,35 +1,15 @@
 import express from "express";
-import { Message } from "@new-swim/common";
-
-const PORT = 3000;
+import { User } from "@new-swim/common";
 
 const app = express();
 
-app.get("/", async (_req, res) => {
-    res.json(await Message.parseAsync({
-        msg: "Hello, World!"
+app.get("/", (_req, res) => {
+    res.json(User.parse({
+        email: "asdf123123@bvfd.de",
+        132123: 123123
     }))
-});
+})
 
-app.get("/fetch", async (_req, res) => {
-    res.send("hi!!!!?!??!!!");
-});
-
-const server = app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`)
-});
-
-// Graceful shutdown on SIGINT/SIGTERM
-process.on("SIGINT", () => {
-    console.log("Shutting down...");
-    server.close(() => {
-        process.exit(0);
-    });
-});
-
-process.on("SIGTERM", () => {
-    console.log("Shutting down...");
-    server.close(() => {
-        process.exit(0);
-    });
-});
+app.listen(3000, () => {
+    console.log("Server started on http://localhost:3000")
+})

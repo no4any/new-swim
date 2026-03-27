@@ -17,7 +17,10 @@
   "license": "MIT",
   "scripts": {
     "build": "turbo run build",
-    "test": "turbo watch test"
+    "test": "turbo run test",
+    "test:watch": "turbo watch test",
+    "start": "turbo run start",
+    "start:watch": "turbo watch start"
   },
   "devDependencies": {
     "turbo": "^2.8.18"

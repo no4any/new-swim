@@ -15,7 +15,15 @@
         },
         "test": {
             "dependsOn": [
-                "^build"
+                "build"
+            ],
+            "persistent": true,
+            "interruptible": true,
+            "cache": false
+        },
+        "start": {
+            "dependsOn": [
+                "build"
             ],
             "persistent": true,
             "interruptible": true,

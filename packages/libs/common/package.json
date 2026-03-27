@@ -14,7 +14,8 @@
   },
   "devDependencies": {
     "@new-swim/ts-config": "*",
-    "@new-swim/jest-config": "*"
+    "@new-swim/jest-config": "*",
+    "ts-jest": "^29.4.6"
   },
   "dependencies": {
     "zod": "^4.3.6"
